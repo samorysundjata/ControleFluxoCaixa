@@ -19,6 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\src\ControleFluxoCaixa.API\ControleFluxoCaixa.API.csproj" />
     <ProjectReference Include="..\..\src\ControleFluxoCaixa.Aplicacao\ControleFluxoCaixa.Aplicacao.csproj" />
     <ProjectReference Include="..\..\src\ControleFluxoCaixa.Dominio\ControleFluxoCaixa.Dominio.csproj" />
     <ProjectReference Include="..\..\src\ControleFluxoCaixa.Infraestrutura\ControleFluxoCaixa.Infraestrutura.csproj" />

@@ -1,4 +1,3 @@
-// ControleFluxoCaixa.Infraestrutura/Contexto/ControleFluxoCaixaDbContext.cs
 using ControleFluxoCaixa.Dominio.Entidades;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,6 +11,7 @@ namespace ControleFluxoCaixa.Infraestrutura.Contexto
         }
 
         public DbSet<Lancamento> Lancamentos { get; set; }
+        public DbSet<ConsolidadoDiario> ConsolidadosDiarios { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

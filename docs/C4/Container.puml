@@ -1,0 +1,9 @@
+@startuml
+!includeurl https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+Person(comerciante, "Comerciante", "Usuario que interage com o sistema")
+System(sistemaControleFluxoCaixa, "Sistema de Controle do Fluxo de Caixa", "Sistema que gerencia o fluxo de caixa")
+
+Rel(comerciante, sistemaControleFluxoCaixa, "Usa")
+
+@enduml
