@@ -15,7 +15,7 @@ public class LancamentoServicoTestes
         using (var context = new ControleFluxoCaixaDbContext(options))
         {
             var servico = new LancamentoServico(context);
-            var lancamento = new Lancamento { Valor = 100, Data = DateTime.Now, IsCredito = true };
+            var lancamento = new Lancamento { Valor = 100, Data = DateTime.Now, IsCredito = true, Tipo = "Credito" };
 
             servico.AdicionarLancamento(lancamento);
 
