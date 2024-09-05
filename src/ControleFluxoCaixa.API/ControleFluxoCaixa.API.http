@@ -1,0 +1,6 @@
+@ControleFluxoCaixa.API_HostAddress = http://localhost:5038
+
+GET {{ControleFluxoCaixa.API_HostAddress}}/saldo/
+Accept: application/json
+
+###
